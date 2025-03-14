@@ -6,6 +6,6 @@ jobs:
   install:
     runs-on: ubuntu-latest
     steps:
-      -name: executar FFMPEG
-       run: |
-         ffmpg --help
+      - name: executar FFMPEG
+        run: |
+          ffmpg --help
