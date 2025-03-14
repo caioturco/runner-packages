@@ -14,4 +14,4 @@ jobs:
           sudo apt install ffmpeg --yes
       - name: executar FFMPEG
         run: |
-          ffmpg --help
+          ffmpeg --help
